@@ -22,17 +22,6 @@
         "Policy": "auto",
         "ExternalIP": ""
       }
-    },
-    {
-      "Name": "AliDNS6",
-      "Address": "223.6.6.6:53",
-      "Protocol": "udp",
-      "SOCKS5Address": "",
-      "Timeout": 6,
-      "EDNSClientSubnet": {
-        "Policy": "auto",
-        "ExternalIP": ""
-      }
     }
   ],
   "AlternativeDNS": [
