@@ -1,0 +1,69 @@
+{
+  "BindAddress": "v4.edge.l.iyuyue.net:2333",
+  "PrimaryDNS": [
+    {
+      "Name": "DNSPod",
+      "Address": "119.29.29.29:53",
+      "Protocol": "udp",
+      "SOCKS5Address": "",
+      "Timeout": 6,
+      "EDNSClientSubnet": {
+        "Policy": "auto",
+        "ExternalIP": ""
+      }
+    },
+    {
+      "Name": "AliDNS5",
+      "Address": "223.5.5.5:53",
+      "Protocol": "udp",
+      "SOCKS5Address": "",
+      "Timeout": 6,
+      "EDNSClientSubnet": {
+        "Policy": "auto",
+        "ExternalIP": ""
+      }
+    },
+    {
+      "Name": "AliDNS6",
+      "Address": "223.6.6.6:53",
+      "Protocol": "udp",
+      "SOCKS5Address": "",
+      "Timeout": 6,
+      "EDNSClientSubnet": {
+        "Policy": "auto",
+        "ExternalIP": ""
+      }
+    }
+  ],
+  "AlternativeDNS": [
+    {
+      "Name": "Verisign64",
+      "Address": "64.6.64.6:53",
+      "Protocol": "udp",
+      "SOCKS5Address": "",
+      "Timeout": 6,
+      "EDNSClientSubnet": {
+        "Policy": "auto",
+        "ExternalIP": ""
+      }
+    },
+    {
+      "Name": "Verisign65",
+      "Address": "64.6.65.6:53",
+      "Protocol": "udp",
+      "SOCKS5Address": "",
+      "Timeout": 6,
+      "EDNSClientSubnet": {
+        "Policy": "auto",
+        "ExternalIP": ""
+      }
+    }
+  ],
+  "OnlyPrimaryDNS": false,
+  "RedirectIPv6Record": true,
+  "IPNetworkFile": "/var/lib/overture/ip_network_sample",
+  "HostsFile": "/var/lib/overture/hosts_sample",
+  "MinimumTTL": 0,
+  "CacheSize" : 0,
+  "RejectQtype": [255]
+}

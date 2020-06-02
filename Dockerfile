@@ -15,4 +15,12 @@ RUN set -ex && \
     mv overture-linux-amd64 /usr/local/bin/overture && \
     rm -rf /tmp/*
 
-#USER nobody
+COPY root /
+
+RUN chmod +x /usr/local/bin/overture/overture-linux-amd64
+
+USER nobody
+
+CMD ["/usr/local/bin/overture/overture-linux-amd64", "-c", "/etc/overture.json"]
+
+
