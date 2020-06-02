@@ -23,6 +23,6 @@ RUN set -ex && \
 
 RUN chmod +x /usr/local/bin/overture/overture-linux-amd64
 
-USER nobody
-
 CMD ["/usr/local/bin/overture/overture-linux-amd64", "-c", "/etc/overture/config.json"]
+
+# USER nobody
