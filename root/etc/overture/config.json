@@ -1,5 +1,5 @@
 {
-  "BindAddress": "v4.edge.l.iyuyue.net:2333",
+  "BindAddress": "0.0.0.0:53",
   "PrimaryDNS": [
     {
       "Name": "DNSPod",
