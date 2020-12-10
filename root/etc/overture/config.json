@@ -9,7 +9,7 @@
       "Timeout": 6,
       "EDNSClientSubnet": {
         "Policy": "auto",
-        "ExternalIP": ""
+        "ExternalIP": "114.216.0.0"
       }
     },
     {
@@ -20,7 +20,7 @@
       "Timeout": 6,
       "EDNSClientSubnet": {
         "Policy": "auto",
-        "ExternalIP": ""
+        "ExternalIP": "114.216.0.0"
       }
     }
   ],
@@ -33,7 +33,7 @@
       "Timeout": 6,
       "EDNSClientSubnet": {
         "Policy": "auto",
-        "ExternalIP": ""
+        "ExternalIP": "114.216.0.0"
       }
     },
     {
@@ -44,7 +44,7 @@
       "Timeout": 6,
       "EDNSClientSubnet": {
         "Policy": "auto",
-        "ExternalIP": ""
+        "ExternalIP": "114.216.0.0"
       }
     }
   ],
